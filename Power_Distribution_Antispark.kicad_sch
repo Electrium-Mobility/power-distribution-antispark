@@ -4986,6 +4986,16 @@
 		)
 		(uuid "5c474c1c-787a-4199-b517-516a32b6b349")
 	)
+	(text "vamp is max 7v"
+		(exclude_from_sim no)
+		(at 41.91 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90f43515-f607-46a6-b613-59e1b4285559")
+	)
 	(text "Max Vdiff = 48V\nNOR gate max input = 7V --> reduce by factor of 8\nVoltage divide opamp inputs by 8x\nThen opamp gain of 1 into logic gates"
 		(exclude_from_sim no)
 		(at 212.09 82.296 0)
@@ -5025,26 +5035,6 @@
 			(justify left top)
 		)
 		(uuid "1a3140c1-fd1b-4296-adfd-20515b0f7c1e")
-	)
-	(text_box "not sure about diode before or after fuse, or if it matters"
-		(exclude_from_sim no)
-		(at 35.56 34.29 0)
-		(size 36.83 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4899e72d-e4b6-469d-94d7-0294ae06a922")
 	)
 	(text_box "is q3 rated ok? Vgs max is 12v, but vamp not sure"
 		(exclude_from_sim no)
@@ -5106,6 +5096,26 @@
 		)
 		(uuid "a9cee73e-8742-4e29-834f-41ee092eb95a")
 	)
+	(text_box "nor gate:\nhi: ~4V\nlo: ~0.44V"
+		(exclude_from_sim no)
+		(at 20.32 109.22 0)
+		(size 13.97 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b4a5d9e7-6368-4445-b5c0-4abcde59439e")
+	)
 	(text_box "when prechrage is complete\nprecharge is at 48v then\nthen pin1 will be 48v\nto turn on nmos, need to drive pin4 to be higher than pin1\neither need gate driver or change to pmos\nprob gate driver good to learn, nmos is better for efficiency so use gate better"
 		(exclude_from_sim no)
 		(at 46.99 99.06 0)
@@ -5126,9 +5136,9 @@
 		)
 		(uuid "c5c20d88-a987-4d96-88dc-0fd78f3eec37")
 	)
-	(text_box "both conns rated for 13a, maybe 2x or 3x rating instead?\nexpected nominal is ~10a"
+	(text_box "both conns rated for 13a, maybe 2x or 3x rating instead?\nexpected nominal is ~10a\nall other connects were expensive, like >4$"
 		(exclude_from_sim no)
-		(at 468.63 110.49 0)
+		(at 487.68 105.41 0)
 		(size 33.02 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5177,6 +5187,12 @@
 		(uuid "03c86591-c5c6-41af-9f2b-784881db9881")
 	)
 	(junction
+		(at 54.61 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048eb81a-514e-4d88-be47-2ceb3800046f")
+	)
+	(junction
 		(at 464.82 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5199,6 +5215,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0993b0bf-8bf6-4fa6-85be-64516c7e146a")
+	)
+	(junction
+		(at 307.34 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09fe5365-6bb9-4c71-8287-dfbcd4f1c403")
 	)
 	(junction
 		(at 471.17 212.09)
@@ -5345,7 +5367,7 @@
 		(uuid "2dbbff2f-5e4b-4280-9d25-c3a52d20a66e")
 	)
 	(junction
-		(at 379.73 60.96)
+		(at 441.96 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f5cc349-3e11-4ad1-a413-700f6c224815")
@@ -5561,7 +5583,7 @@
 		(uuid "79b195f7-b5a3-4d57-b530-7f3e102b2725")
 	)
 	(junction
-		(at 321.31 50.8)
+		(at 383.54 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d504aaa-4f29-47e7-973a-c625158b7543")
@@ -5657,12 +5679,6 @@
 		(uuid "9b8e14f8-e69c-4844-a572-2913e464e717")
 	)
 	(junction
-		(at 54.61 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bd1d2f6-7442-428d-b147-811d4cc7a814")
-	)
-	(junction
 		(at 254 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5687,7 +5703,7 @@
 		(uuid "a404d66c-49e5-486e-8be1-6406346daa3c")
 	)
 	(junction
-		(at 264.16 54.61)
+		(at 326.39 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a566710c-905b-4f0e-a0d8-87fa4dfe6d97")
@@ -5819,7 +5835,7 @@
 		(uuid "c7f01108-276a-4da8-9cf3-4acad72a10cf")
 	)
 	(junction
-		(at 46.99 52.07)
+		(at 54.61 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc627516-7f34-4cb4-bc84-feac20d9bf4b")
@@ -5891,7 +5907,7 @@
 		(uuid "de9f33d9-be9c-4374-af95-f6d98d30f67e")
 	)
 	(junction
-		(at 379.73 50.8)
+		(at 441.96 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2a090cc-798e-45c6-bc13-0c83d4fda76b")
@@ -5963,7 +5979,7 @@
 		(uuid "f678bea4-edcc-469f-be22-7222d1bfbc19")
 	)
 	(junction
-		(at 293.37 54.61)
+		(at 355.6 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6d585c8-ec42-4ef0-8f04-86cdf79127c2")
@@ -5987,7 +6003,7 @@
 		(uuid "f93516c9-912b-4b06-ba93-30fe063901df")
 	)
 	(no_connect
-		(at 341.63 60.96)
+		(at 403.86 60.96)
 		(uuid "45cc726d-b414-47c8-9417-13736892ea12")
 	)
 	(wire
@@ -6262,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 288.29) (xy 41.91 288.29)
+			(xy 34.29 288.29) (xy 41.91 288.29)
 		)
 		(stroke
 			(width 0)
@@ -6332,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 52.07) (xy 46.99 54.61)
+			(xy 54.61 52.07) (xy 54.61 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6642,7 +6658,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 50.8) (xy 379.73 50.8)
+			(xy 434.34 50.8) (xy 441.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6702,7 +6718,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 57.15) (xy 379.73 60.96)
+			(xy 441.96 57.15) (xy 441.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6772,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 142.24) (xy 59.69 142.24)
+			(xy 50.8 142.24) (xy 54.61 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6932,7 +6948,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 50.8) (xy 321.31 52.07)
+			(xy 383.54 50.8) (xy 383.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6959,6 +6975,16 @@
 			(type default)
 		)
 		(uuid "36f8f5dd-9a23-4b9a-9e34-74b24705a4f5")
+	)
+	(wire
+		(pts
+			(xy 54.61 142.24) (xy 54.61 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383f9a6f-ece5-4756-b3dc-f278aa9592cd")
 	)
 	(wire
 		(pts
@@ -7092,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 57.15) (xy 321.31 58.42)
+			(xy 383.54 57.15) (xy 383.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7302,6 +7328,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 54.61) (xy 312.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbda372-fe9e-42a0-b6f7-99ba46d3ff66")
+	)
+	(wire
+		(pts
 			(xy 111.76 177.8) (xy 120.65 177.8)
 		)
 		(stroke
@@ -7472,6 +7508,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 54.61) (xy 307.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582b0183-d9c0-4aea-b614-85803f6f73a5")
+	)
+	(wire
+		(pts
 			(xy 180.34 68.58) (xy 195.58 68.58)
 		)
 		(stroke
@@ -7542,7 +7588,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 46.99 52.07)
+			(xy 52.07 52.07) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7652,7 +7698,17 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 54.61) (xy 271.78 54.61)
+			(xy 54.61 142.24) (xy 59.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651cd0aa-83e3-4b3e-be7b-641236653397")
+	)
+	(wire
+		(pts
+			(xy 326.39 54.61) (xy 334.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7692,7 +7748,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 54.61) (xy 302.26 54.61)
+			(xy 355.6 54.61) (xy 364.49 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7742,7 +7798,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 54.61) (xy 293.37 54.61)
+			(xy 349.25 54.61) (xy 355.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7842,13 +7898,23 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 50.8) (xy 379.73 52.07)
+			(xy 441.96 50.8) (xy 441.96 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7352ebc8-8c26-48f9-861f-99af381c229f")
+	)
+	(wire
+		(pts
+			(xy 289.56 54.61) (xy 295.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743cdc27-b3d7-43b1-bc39-daae1a0536b0")
 	)
 	(wire
 		(pts
@@ -8082,7 +8148,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 50.8) (xy 341.63 50.8)
+			(xy 383.54 50.8) (xy 403.86 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8282,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 48.26) (xy 379.73 50.8)
+			(xy 441.96 48.26) (xy 441.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8322,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 215.9) (xy 59.69 217.17)
+			(xy 59.69 215.9) (xy 59.69 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8502,17 +8568,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 59.69 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990f761d-edd6-4dbd-a5fa-853fa985ccfb")
-	)
-	(wire
-		(pts
-			(xy 379.73 60.96) (xy 372.11 60.96)
+			(xy 441.96 60.96) (xy 434.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8642,16 +8698,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 54.61) (xy 264.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1e1e70d-3c70-412a-9216-b2b730cf9fb2")
-	)
-	(wire
-		(pts
 			(xy 461.01 264.16) (xy 461.01 262.89)
 		)
 		(stroke
@@ -8689,16 +8735,6 @@
 			(type default)
 		)
 		(uuid "a3946fdb-f400-4517-bd7a-33e01f46232e")
-	)
-	(wire
-		(pts
-			(xy 50.8 142.24) (xy 54.61 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3adb7a0-67b5-4140-b7c2-5a120231c8e5")
 	)
 	(wire
 		(pts
@@ -8822,7 +8858,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 55.88) (xy 341.63 55.88)
+			(xy 400.05 55.88) (xy 403.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9132,6 +9168,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 52.07) (xy 44.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc20d082-79fd-4b8f-8f56-c18c4808734c")
+	)
+	(wire
+		(pts
 			(xy 102.87 177.8) (xy 111.76 177.8)
 		)
 		(stroke
@@ -9412,6 +9458,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 54.61) (xy 307.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0e43d9-9cc7-4758-bcf7-f7bea7ef5ecc")
+	)
+	(wire
+		(pts
 			(xy 212.09 327.66) (xy 212.09 330.2)
 		)
 		(stroke
@@ -9592,7 +9648,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 52.07) (xy 36.83 52.07)
+			(xy 24.13 52.07) (xy 30.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9789,6 +9845,16 @@
 			(type default)
 		)
 		(uuid "e683a13e-5d97-42e6-baac-1911b439cc11")
+	)
+	(wire
+		(pts
+			(xy 320.04 54.61) (xy 326.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c0492f-e3cc-4d92-9cb4-150af605cdd4")
 	)
 	(wire
 		(pts
@@ -10032,7 +10098,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 142.24) (xy 43.18 142.24)
+			(xy 36.83 142.24) (xy 43.18 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10142,7 +10208,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 52.07) (xy 49.53 52.07)
+			(xy 54.61 52.07) (xy 59.69 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10810,7 +10876,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 321.31 54.61 0)
+		(at 383.54 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10819,7 +10885,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d5d5953-99fe-4c6d-9b31-e3885601f43c")
 		(property "Reference" "C17"
-			(at 323.85 53.3462 0)
+			(at 386.08 53.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10894,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 323.85 55.8862 0)
+			(at 386.08 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +10903,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 321.31 54.61 0)
+			(at 383.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +10912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 54.61 0)
+			(at 383.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +10921,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 321.31 54.61 0)
+			(at 383.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11086,7 +11152,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 38.1 288.29 0)
+		(at 34.29 288.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11095,7 +11161,7 @@
 		(fields_autoplaced yes)
 		(uuid "121e725b-94a0-4066-8df6-d0946e39156e")
 		(property "Reference" "#PWR078"
-			(at 38.1 292.1 0)
+			(at 34.29 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11170,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 38.1 283.21 0)
+			(at 34.29 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 288.29 0)
+			(at 34.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +11187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 288.29 0)
+			(at 34.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 38.1 288.29 0)
+			(at 34.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11694,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 39.37 142.24 0)
+		(at 36.83 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11637,7 +11703,7 @@
 		(fields_autoplaced yes)
 		(uuid "1770c704-ad79-4269-a711-1a792411ec27")
 		(property "Reference" "#PWR025"
-			(at 39.37 146.05 0)
+			(at 36.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +11712,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 39.37 137.16 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 142.24 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 142.24 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11672,7 +11738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 39.37 142.24 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,92 +11962,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 45.72 288.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d594407-fb1b-4f56-b729-c226c0fc614a")
-		(property "Reference" "D8"
-			(at 45.72 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S5MSMB"
-			(at 45.72 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 45.72 283.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/S5MSMB/26256909"
-			(at 45.72 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 1000 V 5A Surface Mount DO-214AA (SMB)"
-			(at 45.72 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 45.72 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74d2340c-3843-47f1-8cd2-cc1d3c709079")
-		)
-		(pin "2"
-			(uuid "e6334846-0a73-44c2-b175-0ba265d8d52b")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12330,7 +12310,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 379.73 48.26 0)
+		(at 441.96 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12339,7 +12319,7 @@
 		(fields_autoplaced yes)
 		(uuid "20dfd3e2-e0e2-4b11-a8b9-d45eb58158c6")
 		(property "Reference" "#PWR034"
-			(at 379.73 52.07 0)
+			(at 441.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12328,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 379.73 43.18 0)
+			(at 441.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 48.26 0)
+			(at 441.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12365,7 +12345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 48.26 0)
+			(at 441.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,7 +12354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 379.73 48.26 0)
+			(at 441.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12396,7 +12376,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 302.26 54.61 0)
+		(at 364.49 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12405,7 +12385,7 @@
 		(fields_autoplaced yes)
 		(uuid "22254ee2-9594-4bd0-8cb6-6ed1daba696c")
 		(property "Reference" "#PWR066"
-			(at 302.26 58.42 0)
+			(at 364.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12394,7 @@
 			)
 		)
 		(property "Value" "+5V_PC"
-			(at 302.26 49.53 0)
+			(at 364.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 54.61 0)
+			(at 364.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12431,7 +12411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 54.61 0)
+			(at 364.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +12420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 302.26 54.61 0)
+			(at 364.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 59.69 0)
+		(at 326.39 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13342,7 +13322,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f72b753-fe9d-42a2-b368-2b484c6b08ff")
 		(property "Reference" "#PWR01"
-			(at 264.16 66.04 0)
+			(at 326.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,7 +13331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 64.77 0)
+			(at 326.39 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13359,7 +13339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 59.69 0)
+			(at 326.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +13348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 59.69 0)
+			(at 326.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 59.69 0)
+			(at 326.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,7 +13791,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MCP1792x-5002xDB")
-		(at 279.4 54.61 0)
+		(at 341.63 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13820,7 +13800,7 @@
 		(fields_autoplaced yes)
 		(uuid "38960b27-70b3-4924-94e7-f418edf2bee4")
 		(property "Reference" "U1"
-			(at 279.4 48.26 0)
+			(at 341.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13828,7 +13808,7 @@
 			)
 		)
 		(property "Value" "MCP1792x-5002xDB"
-			(at 279.4 50.8 0)
+			(at 341.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13836,7 +13816,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 279.4 49.53 0)
+			(at 341.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13845,7 +13825,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1792-Family-Data-Sheet-DS20006229D.pdf"
-			(at 279.4 55.88 0)
+			(at 341.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13854,7 +13834,7 @@
 			)
 		)
 		(property "Description" "Low Quiescent Current LDO Regulator, 4.5-55V input, 5.0V, 100mA, SOT-223"
-			(at 279.4 54.61 0)
+			(at 341.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14648,76 +14628,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:DSB5712")
-		(at 54.61 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44b497df-67fa-41e4-9b4e-0527bbf0c6d1")
-		(property "Reference" "D10"
-			(at 57.15 144.4624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P"
-			(at 57.15 147.0024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 50.165 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 54.61 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 75mA Schottky diode, DO-35"
-			(at 54.61 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a61c761f-6398-4384-8a8c-5344efd29993")
-		)
-		(pin "2"
-			(uuid "22b22035-62f6-41ea-a193-b9b2a148a120")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 248.92 288.29 0)
 		(unit 1)
@@ -14919,76 +14829,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:DSB5712")
-		(at 53.34 294.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4616d160-3f99-429d-beea-946c3c016b19")
-		(property "Reference" "D12"
-			(at 55.88 293.0524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P"
-			(at 55.88 295.5924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 48.895 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 53.34 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 75mA Schottky diode, DO-35"
-			(at 53.34 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9c14ac5-c52d-4885-bb1b-72fa66ef8df4")
-		)
-		(pin "2"
-			(uuid "5b3fdb2f-ea56-4546-bf58-e3fac703d322")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -15421,7 +15261,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 53.34 52.07 90)
+		(at 34.29 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15430,7 +15270,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e24f281-0bad-463f-8a3c-ae85fe2ab939")
 		(property "Reference" "F1"
-			(at 53.34 45.72 90)
+			(at 34.29 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +15278,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 53.34 48.26 90)
+			(at 34.29 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +15286,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprintLibrary:0697_BEL"
-			(at 53.34 53.848 90)
+			(at 34.29 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +15295,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/bel-fuse-inc/0697H9150-01/5208765"
-			(at 53.34 52.07 0)
+			(at 34.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +15304,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 53.34 52.07 0)
+			(at 34.29 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15479,7 +15319,7 @@
 			(uuid "1277ea84-0be9-4cae-be02-9ecb7cb8b5ea")
 		)
 		(instances
-			(project ""
+			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "F1")
 					(unit 1)
@@ -15690,16 +15530,15 @@
 	)
 	(symbol
 		(lib_id "Diode:DSB5712")
-		(at 46.99 58.42 270)
+		(at 54.61 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55b9f4c1-a6c3-4965-9e25-6c4be984180b")
 		(property "Reference" "D9"
-			(at 49.53 56.8324 90)
+			(at 49.022 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15707,8 +15546,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "P"
-			(at 49.53 59.3724 90)
+		(property "Value" "SMCJ48CA/TR13"
+			(at 36.068 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,8 +15555,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 42.545 58.42 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 50.165 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15725,8 +15564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 46.99 58.42 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/SMCJ48CA-TR13/15855216"
+			(at 54.61 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,8 +15573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20V 75mA Schottky diode, DO-35"
-			(at 46.99 58.42 0)
+		(property "Description" "TVS DIODE 48VWM 77.4VC DO214AB"
+			(at 54.61 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15895,6 +15734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b131a78-4f4f-4629-a59e-38ce56250258")
+		(property "Reference" "#PWR058"
+			(at 59.69 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e458d97-9bbc-4bc6-9f27-5b896c06c621")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 102.87 171.45 0)
 		(unit 1)
@@ -16036,7 +15941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 379.73 60.96 0)
+		(at 441.96 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16045,7 +15950,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d541785-9af8-4969-bd79-74f0c42fea0a")
 		(property "Reference" "#PWR033"
-			(at 379.73 67.31 0)
+			(at 441.96 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16054,7 +15959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.73 66.04 0)
+			(at 441.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +15967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 60.96 0)
+			(at 441.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +15976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 60.96 0)
+			(at 441.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +15985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 60.96 0)
+			(at 441.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16401,6 +16306,92 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 46.99 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659b97f2-0bcf-458c-ae86-1c665016f076")
+		(property "Reference" "D5"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRD20100"
+			(at 46.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 46.99 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBRD20100/21705426"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 20A DPAK"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96ba35f6-e2d2-41b5-bedf-3fe699b8ce68")
+		)
+		(pin "2"
+			(uuid "7f9ba571-c683-465f-88c9-fc45e6385922")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -16924,6 +16915,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:DSB5712")
+		(at 59.69 223.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71885d77-6351-4514-bc87-e9970dbb1d7d")
+		(property "Reference" "D11"
+			(at 54.102 221.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ48CA/TR13"
+			(at 41.148 224.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 55.245 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/SMCJ48CA-TR13/15855216"
+			(at 59.69 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 48VWM 77.4VC DO214AB"
+			(at 59.69 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f23f4a1-bce7-4cd9-8bb2-9aad021d4320")
+		)
+		(pin "2"
+			(uuid "e3cff414-f8d1-4248-9b47-f8836b140c7d")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 349.25 227.33 0)
 		(unit 1)
@@ -17202,72 +17262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 298.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7491bb8c-222e-4f44-99b4-9bf6527cb4e9")
-		(property "Reference" "#PWR060"
-			(at 53.34 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c7ddac-410c-47b8-baf7-6847d5505a0a")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 328.93 217.17 0)
 		(mirror y)
@@ -17340,7 +17334,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 264.16 57.15 0)
+		(at 326.39 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17349,7 +17343,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ad3932-98b1-49b8-b182-2aaa4b6961f6")
 		(property "Reference" "C1"
-			(at 266.7 55.8862 0)
+			(at 328.93 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17358,7 +17352,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 266.7 58.4262 0)
+			(at 328.93 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17367,7 +17361,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 264.16 57.15 0)
+			(at 326.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17376,7 +17370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 57.15 0)
+			(at 326.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17385,7 +17379,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 264.16 57.15 0)
+			(at 326.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,7 +17543,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 321.31 50.8 0)
+		(at 383.54 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17558,7 +17552,7 @@
 		(fields_autoplaced yes)
 		(uuid "77151a05-164d-433d-98f8-1c119255e4cb")
 		(property "Reference" "#PWR036"
-			(at 321.31 54.61 0)
+			(at 383.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17561,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 321.31 45.72 0)
+			(at 383.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17575,7 +17569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 50.8 0)
+			(at 383.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17584,7 +17578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 50.8 0)
+			(at 383.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 321.31 50.8 0)
+			(at 383.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,6 +18296,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 50.8 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f199b6e-4f62-4979-897b-39cc9e9c9355")
+		(property "Reference" "D7"
+			(at 50.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRD20100"
+			(at 50.8 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 50.8 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBRD20100/21705426"
+			(at 50.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 20A DPAK"
+			(at 50.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e6892ba-2b60-438f-b46e-87290030a68b")
+		)
+		(pin "2"
+			(uuid "c650fe7d-f484-43c5-8ea5-b3a45f9e6cdc")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 195.58 45.72 0)
 		(unit 1)
@@ -18362,92 +18442,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 46.99 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8459660b-bdee-417b-badf-9068bff179b9")
-		(property "Reference" "D5"
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S5MSMB"
-			(at 46.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 46.99 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/S5MSMB/26256909"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 1000 V 5A Surface Mount DO-214AA (SMB)"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b46956e-8e75-4bd3-acb5-97047193cae5")
-		)
-		(pin "2"
-			(uuid "26202185-208a-4e28-a25a-04c1ba10ee7c")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -19342,76 +19336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:DSB5712")
-		(at 59.69 220.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9388a817-52f6-4ba8-a86a-dd443f493b73")
-		(property "Reference" "D11"
-			(at 62.23 219.3924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P"
-			(at 62.23 221.9324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 55.245 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet"
-			(at 59.69 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20V 75mA Schottky diode, DO-35"
-			(at 59.69 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb147741-7367-41f9-9ab4-85ccdf086f13")
-		)
-		(pin "2"
-			(uuid "6e307de2-c97e-4bfe-bb75-09c9ef5a10b8")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 220.98 0)
 		(unit 1)
@@ -19754,7 +19678,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 337.82 55.88 90)
+		(at 400.05 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19762,7 +19686,7 @@
 		(dnp no)
 		(uuid "9ce14888-ec85-4eb2-8548-796549c3927c")
 		(property "Reference" "#PWR067"
-			(at 341.63 55.88 0)
+			(at 403.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19771,7 +19695,7 @@
 			)
 		)
 		(property "Value" "+5V_PC"
-			(at 339.598 53.848 90)
+			(at 401.828 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19780,7 +19704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 55.88 0)
+			(at 400.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19789,7 +19713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 55.88 0)
+			(at 400.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19798,7 +19722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 337.82 55.88 0)
+			(at 400.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19948,6 +19872,74 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 316.23 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a089d2c6-134a-4fec-a6f3-dbb9d406e9f4")
+		(property "Reference" "F4"
+			(at 316.23 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 316.23 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 316.23 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/bel-fuse-inc/0686F3500-01/7427691"
+			(at 316.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5 A 32 V 63 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0603 (1608 Metric)"
+			(at 316.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961f8e97-5a59-4ece-9c66-efb70c9465a0")
+		)
+		(pin "2"
+			(uuid "9ee4a740-52da-4fac-ac44-6f32e299da93")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -20166,7 +20158,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 379.73 54.61 0)
+		(at 441.96 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20175,7 +20167,7 @@
 		(fields_autoplaced yes)
 		(uuid "a37d90c8-2af8-4c29-990e-44eafe4a962e")
 		(property "Reference" "C18"
-			(at 382.27 53.3462 0)
+			(at 444.5 53.3462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20184,7 +20176,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 382.27 55.8862 0)
+			(at 444.5 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,7 +20185,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 379.73 54.61 0)
+			(at 441.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20202,7 +20194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 54.61 0)
+			(at 441.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20211,7 +20203,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 379.73 54.61 0)
+			(at 441.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20723,74 +20715,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+48V")
-		(at 256.54 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9747637-375c-47bd-bc2a-560abf003a5c")
-		(property "Reference" "#PWR04"
-			(at 256.54 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 256.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 256.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9e70557-45ef-413e-abdb-90ac6741eb74")
-		)
-		(instances
-			(project ""
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 293.37 59.69 0)
+		(at 355.6 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20799,7 +20725,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9d3169c-374f-4c10-b51c-476cb4b47219")
 		(property "Reference" "#PWR03"
-			(at 293.37 66.04 0)
+			(at 355.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20808,7 +20734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 64.77 0)
+			(at 355.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20816,7 +20742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 59.69 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20825,7 +20751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 59.69 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20834,7 +20760,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 59.69 0)
+			(at 355.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20991,6 +20917,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:DSB5712")
+		(at 54.61 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab3d819d-3be7-434f-8018-e38c4ab848c3")
+		(property "Reference" "D10"
+			(at 49.022 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ48CA/TR13"
+			(at 36.068 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 50.165 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/SMCJ48CA-TR13/15855216"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 48VWM 77.4VC DO214AB"
+			(at 54.61 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d76ab16b-0d6c-48af-82f0-d4957c2a7f55")
+		)
+		(pin "2"
+			(uuid "322cba7d-4e4e-4edd-8a4e-61959dd2bcf8")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:DSB5712")
+		(at 307.34 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac727b0c-af38-48b6-a05f-9b2e899cef2c")
+		(property "Reference" "D14"
+			(at 301.752 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ48CA/TR13"
+			(at 288.798 61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 302.895 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/SMCJ48CA-TR13/15855216"
+			(at 307.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 48VWM 77.4VC DO214AB"
+			(at 307.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd1d50d9-4c2c-4d0f-a015-1006b18fbffc")
+		)
+		(pin "2"
+			(uuid "d5d32c97-4ea4-4800-8a07-47895fc2fc61")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 483.87 298.45 0)
 		(unit 1)
@@ -21051,72 +21115,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 224.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad24ebf6-c4fe-4e4a-aa74-cb8ca54a9c13")
-		(property "Reference" "#PWR058"
-			(at 59.69 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549da002-d13a-4d19-9a50-9fbb5e5a6570")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -21752,7 +21750,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 62.23 0)
+		(at 341.63 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21761,7 +21759,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7afa8d4-9dba-4e1e-ae0b-1f68486354e0")
 		(property "Reference" "#PWR02"
-			(at 279.4 68.58 0)
+			(at 341.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21770,7 +21768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 67.31 0)
+			(at 341.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21778,7 +21776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 62.23 0)
+			(at 341.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21787,7 +21785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 62.23 0)
+			(at 341.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21796,7 +21794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 62.23 0)
+			(at 341.63 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21948,6 +21946,72 @@
 			(project ""
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa9c816-3719-4ff9-b30c-90f69d7c9a1c")
+		(property "Reference" "#PWR060"
+			(at 53.34 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b32f15f1-bf24-4722-87da-077df8dc8b73")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -22168,7 +22232,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 293.37 57.15 0)
+		(at 355.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22177,7 +22241,7 @@
 		(fields_autoplaced yes)
 		(uuid "c32a70ce-5cff-4b42-9ef6-84b07ab36809")
 		(property "Reference" "C2"
-			(at 295.91 55.8862 0)
+			(at 358.14 55.8862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22186,7 +22250,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 295.91 58.4262 0)
+			(at 358.14 58.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22195,7 +22259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 293.37 57.15 0)
+			(at 355.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22204,7 +22268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 293.37 57.15 0)
+			(at 355.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22213,7 +22277,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 293.37 57.15 0)
+			(at 355.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22399,7 +22463,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 58.42 0)
+		(at 383.54 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22408,7 +22472,7 @@
 		(fields_autoplaced yes)
 		(uuid "c87cb0f7-f92c-4a6b-8f44-bc8a4ec5b974")
 		(property "Reference" "#PWR035"
-			(at 321.31 64.77 0)
+			(at 383.54 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,7 +22481,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.31 63.5 0)
+			(at 383.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22425,7 +22489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 58.42 0)
+			(at 383.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22434,7 +22498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 58.42 0)
+			(at 383.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22443,7 +22507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 58.42 0)
+			(at 383.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22532,7 +22596,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 62.23 0)
+		(at 54.61 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22541,7 +22605,7 @@
 		(fields_autoplaced yes)
 		(uuid "caf95b64-d425-424e-80b8-ec5caae60fc5")
 		(property "Reference" "#PWR055"
-			(at 46.99 68.58 0)
+			(at 54.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22550,7 +22614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22558,7 +22622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 62.23 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22567,7 +22631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 62.23 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22576,7 +22640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 62.23 0)
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23023,6 +23087,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 289.56 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0bf5118-55da-4657-a8b9-c414758c0f3a")
+		(property "Reference" "#PWR061"
+			(at 289.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 289.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 289.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21e3ce38-19c9-4b5f-9e90-2c4c354d9056")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 72.39 0)
 		(unit 1)
@@ -23088,33 +23218,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 50.8 215.9 180)
+		(lib_id "power:GND")
+		(at 54.61 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2782a81-a52f-48ac-9c9e-1b8ca0b2b571")
-		(property "Reference" "D7"
-			(at 50.8 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "S5MSMB"
-			(at 50.8 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 50.8 211.455 0)
+		(uuid "d2f80e72-6930-4b9b-a8c2-85b6fc387a71")
+		(property "Reference" "#PWR057"
+			(at 54.61 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23122,78 +23236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diotec-semiconductor/S5MSMB/26256909"
-			(at 50.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 1000 V 5A Surface Mount DO-214AA (SMB)"
-			(at 50.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 50.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2751fc86-e8fc-4754-8027-bec9a8fc64bc")
-		)
-		(pin "2"
-			(uuid "e5ca857f-cca2-4648-a6a1-6485ee893cf1")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 29.21 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3ff038b-4080-4718-b289-e5130eae2fd9")
-		(property "Reference" "#PWR013"
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 29.21 46.99 0)
+		(property "Value" "GND"
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23201,7 +23245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 52.07 0)
+			(at 54.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23210,7 +23254,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 52.07 0)
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c2a570-7d8c-4e41-9815-2f1c725f402f")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 24.13 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ff038b-4080-4718-b289-e5130eae2fd9")
+		(property "Reference" "#PWR013"
+			(at 24.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23219,7 +23329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 29.21 52.07 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23859,72 +23969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e019f329-bc2c-4756-a15e-08cf9daae3ec")
-		(property "Reference" "#PWR057"
-			(at 54.61 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a26fa3d-cd1b-479c-b9d1-8cf4bd5f3c85")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 175.26 49.53 0)
 		(unit 1)
@@ -24294,6 +24338,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 45.72 288.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6981ca6-afa7-4916-94a3-07310b11d687")
+		(property "Reference" "D8"
+			(at 45.72 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRD20100"
+			(at 45.72 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 45.72 283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBRD20100/21705426"
+			(at 45.72 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 20A DPAK"
+			(at 45.72 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 45.72 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f368c137-f91e-4533-bacd-9dc1f3c544c5")
+		)
+		(pin "2"
+			(uuid "840d46fb-8517-410d-bdc0-ee9a621cfe86")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 118.11 58.42 180)
 		(unit 1)
@@ -24434,7 +24564,7 @@
 	)
 	(symbol
 		(lib_id "CustomSymbols:TLV74033PDBVR")
-		(at 341.63 50.8 0)
+		(at 403.86 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24443,7 +24573,7 @@
 		(fields_autoplaced yes)
 		(uuid "e921f914-c0f6-4844-821a-0f54e79c637c")
 		(property "Reference" "U6"
-			(at 356.87 40.64 0)
+			(at 419.1 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24451,7 +24581,7 @@
 			)
 		)
 		(property "Value" "TLV74033PDBVR"
-			(at 356.87 43.18 0)
+			(at 419.1 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24459,7 +24589,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprintLibrary:TLV74033PDBVR"
-			(at 341.63 50.8 0)
+			(at 403.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24469,7 +24599,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/texas-instruments/TLV74033PDBVR/12642183?s=N4IgTCBcDaICoBkBqB2ALABgMxYAoBEAhJAJRAF0BfIA"
-			(at 341.63 50.8 0)
+			(at 403.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24479,7 +24609,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
-			(at 341.63 50.8 0)
+			(at 403.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24645,6 +24775,75 @@
 			(project ""
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:DSB5712")
+		(at 53.34 294.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaf5e419-2698-445c-8762-d868e0a5c7df")
+		(property "Reference" "D12"
+			(at 47.752 293.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMCJ48CA/TR13"
+			(at 34.798 295.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 48.895 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/SMCJ48CA-TR13/15855216"
+			(at 53.34 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 48VWM 77.4VC DO214AB"
+			(at 53.34 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a184f45-573e-4fab-80cb-5006b0003f1f")
+		)
+		(pin "2"
+			(uuid "67643424-fbeb-498a-bb4c-2d7a58e93e86")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -25008,6 +25207,158 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 299.72 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef177ba7-3eae-4430-954a-99c0f7644d49")
+		(property "Reference" "D13"
+			(at 299.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRD20100"
+			(at 299.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 299.72 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBRD20100/21705426"
+			(at 299.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 20A DPAK"
+			(at 299.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 299.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 299.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279804f9-adb5-4773-a9e3-c663a6202bfc")
+		)
+		(pin "2"
+			(uuid "eaebb0fd-b85b-4c3c-b11a-8b823a2b266f")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f154af88-bebc-4017-b306-bf24d807cd3f")
+		(property "Reference" "#PWR063"
+			(at 307.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982bddce-431f-48ad-85fb-af7d8f74d50e")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -25454,7 +25805,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")
-		(at 40.64 52.07 180)
+		(at 48.26 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25463,32 +25814,23 @@
 		(fields_autoplaced yes)
 		(uuid "f4891d1a-cb2b-4c2f-ac44-fcac34fe0da8")
 		(property "Reference" "D4"
-			(at 40.64 45.72 0)
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PNU650150AEJJ"
-			(at 40.64 48.26 0)
+		(property "Value" "MBRD20100"
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 40.64 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PNU650150AEJJ/24625516"
-			(at 40.64 52.07 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 48.26 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25496,8 +25838,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE STD 650V 15A D2PAK R2P"
-			(at 40.64 52.07 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/smc-diode-solutions/MBRD20100/21705426"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTKY 100V 20A DPAK"
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25506,7 +25857,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 40.64 52.07 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25515,7 +25866,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 40.64 52.07 0)
+			(at 48.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
