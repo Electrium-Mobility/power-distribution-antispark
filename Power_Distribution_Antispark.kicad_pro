@@ -450,6 +450,38 @@
     [
       "5e8a89a4-9381-43c9-9195-b0d86b17c24c",
       "Root"
+    ],
+    [
+      "4c672224-237e-484f-a149-22ae087ee4cc",
+      "CSense3V3STM"
+    ],
+    [
+      "f89627f7-a662-4d16-87e4-df30279cb408",
+      "CSense3V3_2"
+    ],
+    [
+      "7e161fdc-6454-4b1e-b381-ad95ef3fe665",
+      "CSense5V_1"
+    ],
+    [
+      "0c5e3e45-2fae-42f7-b88b-a63ccf1795a8",
+      "CSense5V_2"
+    ],
+    [
+      "f8a7a5d1-b537-478e-8b0b-ab05cfac827a",
+      "CSense5V_3"
+    ],
+    [
+      "45c68a0b-6b58-487c-a67c-a540a90bba29",
+      "CSense12V_1"
+    ],
+    [
+      "b4475a4d-562e-459c-b1cf-00ed0f923f3c",
+      "CSense12V_2"
+    ],
+    [
+      "d71bf041-53cf-4aaf-b059-3842aef1da98",
+      "CSense12V_3"
     ]
   ],
   "text_variables": {}
