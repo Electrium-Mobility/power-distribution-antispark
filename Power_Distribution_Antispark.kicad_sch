@@ -5081,6 +5081,16 @@
 		)
 		(uuid "af7d1068-36e6-4933-a467-40d661817011")
 	)
+	(text "I = 0.5A"
+		(exclude_from_sim no)
+		(at 157.48 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b557c059-5e34-4837-80ec-b01ea87d7b1c")
+	)
 	(text "5V stepped down by 1.67x"
 		(exclude_from_sim no)
 		(at 295.148 219.456 0)
@@ -5310,6 +5320,12 @@
 		(uuid "344e2815-1778-4a30-8c81-b165d1560112")
 	)
 	(junction
+		(at 213.36 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "364422a8-afdd-4e2e-9750-f517339510e3")
+	)
+	(junction
 		(at 259.08 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,12 +5386,6 @@
 		(uuid "57da063e-9262-42d0-bff9-d643395394e1")
 	)
 	(junction
-		(at 194.31 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58a96d1f-43cf-471f-abdf-fc1476478b50")
-	)
-	(junction
 		(at 247.65 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5392,6 +5402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6272b3a2-7df4-4642-97da-edd63b8e26f2")
+	)
+	(junction
+		(at 194.31 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "637d8ee6-8331-472c-b0aa-caa1a3e3fb8a")
 	)
 	(junction
 		(at 110.49 148.59)
@@ -5634,6 +5650,12 @@
 		(uuid "e8f88114-9fed-473d-b6e6-30053322a369")
 	)
 	(junction
+		(at 213.36 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea993684-f7c9-4a88-afe8-6b131abd6291")
+	)
+	(junction
 		(at 242.57 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5674,12 +5696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc58b5a9-acff-4495-8dd4-dbc5e8cbf925")
-	)
-	(junction
-		(at 194.31 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc6d20db-5db5-45c5-84df-289dd279fb1a")
 	)
 	(no_connect
 		(at 58.42 306.07)
@@ -5745,16 +5761,6 @@
 		)
 		(uuid "04d74d79-6713-4354-ab84-a0bbd9884853")
 	)
-	(wire
-		(pts
-			(xy 179.07 82.55) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050f992c-cb6b-493e-bc85-4993d8cade8c")
-	)
 	(polyline
 		(pts
 			(xy 21.59 123.19) (xy 283.21 123.19)
@@ -5787,7 +5793,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 207.01 85.09)
+			(xy 194.31 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6067,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 99.06) (xy 207.01 99.06)
+			(xy 194.31 102.87) (xy 196.85 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6104,6 +6110,16 @@
 			(type default)
 		)
 		(uuid "1fbef14a-0126-4791-833c-7790ea407336")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200e5830-53af-4593-a34b-35df1a0fc09e")
 	)
 	(wire
 		(pts
@@ -6247,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 78.74) (xy 194.31 82.55)
+			(xy 194.31 71.12) (xy 194.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6357,16 +6373,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 83.82) (xy 179.07 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c547654-7107-42c1-812b-7d3993f0e42f")
-	)
-	(wire
-		(pts
 			(xy 355.6 342.9) (xy 369.57 342.9)
 		)
 		(stroke
@@ -6384,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "2cdf3f4c-2918-4945-8273-74d00037f327")
+	)
+	(wire
+		(pts
+			(xy 213.36 102.87) (xy 213.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d00ad5c-77e0-447c-b814-e6829e0285f5")
 	)
 	(wire
 		(pts
@@ -7027,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 102.87) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f30afa-df04-4f28-8552-fd19bbbf90f8")
+	)
+	(wire
+		(pts
 			(xy 273.05 144.78) (xy 284.48 144.78)
 		)
 		(stroke
@@ -7207,6 +7233,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 110.49) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744b8dab-d71d-4407-8b6d-4c85a8db8a83")
+	)
+	(wire
+		(pts
 			(xy 50.8 92.71) (xy 50.8 95.25)
 		)
 		(stroke
@@ -7307,16 +7343,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 71.12) (xy 194.31 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7ddfbe-7a38-4b4f-bacf-0fd3baa048b7")
-	)
-	(wire
-		(pts
 			(xy 218.44 148.59) (xy 218.44 149.86)
 		)
 		(stroke
@@ -7324,16 +7350,6 @@
 			(type default)
 		)
 		(uuid "7cbfe2e7-3281-44e4-87ea-cc485b86191f")
-	)
-	(wire
-		(pts
-			(xy 194.31 95.25) (xy 194.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd8fa9b-0475-4217-b2b3-4fbf69ffd75c")
 	)
 	(polyline
 		(pts
@@ -7494,6 +7510,16 @@
 			(type default)
 		)
 		(uuid "82d4e5b2-7ae9-439b-a393-3353cdca899a")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bfcf6b-657d-49ad-8ae1-2972115c4ab2")
 	)
 	(wire
 		(pts
@@ -8127,6 +8153,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 102.87) (xy 215.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b754b0ee-37c4-4555-bf73-546afff5ed32")
+	)
+	(wire
+		(pts
 			(xy 229.87 209.55) (xy 229.87 215.9)
 		)
 		(stroke
@@ -8177,6 +8213,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 85.09) (xy 213.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babb5408-cd2b-4abd-9a35-03692de2fa8c")
+	)
+	(wire
+		(pts
 			(xy 190.5 44.45) (xy 190.5 57.15)
 		)
 		(stroke
@@ -8204,6 +8250,16 @@
 			(type default)
 		)
 		(uuid "bce1d71c-c7fa-47b6-abaf-55140b4d676d")
+	)
+	(wire
+		(pts
+			(xy 213.36 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0172e1b-df35-40f2-ab1d-7f215c431139")
 	)
 	(wire
 		(pts
@@ -8737,6 +8793,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 92.71) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e2640f-49fc-4a0e-8fae-8ba7031941ff")
+	)
+	(wire
+		(pts
 			(xy 229.87 223.52) (xy 229.87 222.25)
 		)
 		(stroke
@@ -8837,16 +8903,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 194.31 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bf6819-b5a0-4953-8eb4-900323a2615d")
-	)
-	(wire
-		(pts
 			(xy 374.65 165.1) (xy 378.46 165.1)
 		)
 		(stroke
@@ -8907,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 104.14) (xy 194.31 99.06)
+			(xy 194.31 104.14) (xy 194.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9116,7 +9172,7 @@
 		(uuid "5e53fbd1-6190-49ef-88b7-3c5d3abf0739")
 	)
 	(label "PreChargeSense"
-		(at 207.01 85.09 0)
+		(at 214.63 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9226,7 +9282,7 @@
 		(uuid "c3cd5dc2-9833-4634-a067-cccac188ae80")
 	)
 	(label "PreChargeSenseEnd"
-		(at 207.01 99.06 0)
+		(at 215.9 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10414,7 +10470,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 194.31 76.2 180)
+		(at 200.66 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10422,25 +10478,25 @@
 		(dnp no)
 		(uuid "17d219c3-1164-4143-9ac8-d0b0d045d7ff")
 		(property "Reference" "R33"
-			(at 196.85 74.9299 0)
+			(at 198.755 79.3749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1.1K"
-			(at 196.596 77.47 0)
+			(at 198.501 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 194.31 76.2 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10505,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K10/1761136"
-			(at 194.31 76.2 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10514,7 @@
 			)
 		)
 		(property "Description" "RES 1.1K OHM 1% 1/10W 0603"
-			(at 194.31 76.2 0)
+			(at 200.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,6 +11337,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cac8f60-ee06-4acb-bd40-c778c64c3660")
+		(property "Reference" "#PWR032"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c409f164-eaa6-46be-b3e1-4c788dd3bde6")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 95.25 231.14 0)
 		(unit 1)
@@ -11902,6 +12024,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c758db7-d164-4507-be94-9933d751e77d")
+		(property "Reference" "#PWR036"
+			(at 213.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f543805b-ca0c-4ffd-b579-dfc914739eef")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+48V")
 		(at 34.29 215.9 0)
 		(unit 1)
@@ -12472,7 +12660,7 @@
 				)
 			)
 		)
-		(property "Value" "DTO025C100R0JTE3"
+		(property "Value" "TPAL0263F100RK9"
 			(at 176.022 74.168 0)
 			(effects
 				(font
@@ -12480,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:RES_DTO025_VIS"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin4"
 			(at 167.894 77.724 0)
 			(effects
 				(font
@@ -12490,7 +12678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-sfernice/DTO025C100R0JTE3/5247478"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/c-b-resi/TPAL0263F100RK9/24552897"
 			(at 167.894 80.264 0)
 			(effects
 				(font
@@ -12500,7 +12688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 Ohms ±5% 25W Chip Resistor TO-252-3, DPAK (2 Leads + Tab), SC-63 Automotive AEC-Q200, Non-Inductive Thick Film"
+		(property "Description" "RES 100 OHMS 35W 1% TO263"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -13667,6 +13855,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 199.39 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d5a2a3-0978-46f2-a8b3-221ad5be9961")
+		(property "Reference" "R29"
+			(at 197.485 97.1549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.1K"
+			(at 197.231 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K10/1761136"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.1K OHM 1% 1/10W 0603"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82471d84-defb-4122-bc04-ab07d9bcdb66")
+		)
+		(pin "1"
+			(uuid "3a5bf513-3779-4747-bf1c-f79f330e953f")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 110.49 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14066,6 +14323,76 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 213.36 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73d6a72e-c244-4666-8471-0671645027ff")
+		(property "Reference" "R30"
+			(at 215.9 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.3K"
+			(at 215.9 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K30/1761130"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1.3K OHM 1% 1/10W 0603"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c07eab1-01c6-456c-bbec-de25c1ec850d")
+		)
+		(pin "1"
+			(uuid "d2749c2f-0e29-4ad6-8cc7-9c31fb375f5f")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -16712,7 +17039,7 @@
 		(dnp no)
 		(uuid "b451b739-bb28-43c3-b80c-8bfff455bf74")
 		(property "Reference" "R32"
-			(at 197.104 91.186 0)
+			(at 185.166 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16721,7 +17048,7 @@
 			)
 		)
 		(property "Value" "0.006"
-			(at 197.104 93.726 0)
+			(at 185.166 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16836,72 +17163,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4f3b181-5267-449d-ae02-5d6d84cf5b55")
-		(property "Reference" "#PWR056"
-			(at 179.07 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53a0818d-a57b-4432-9b91-006eca9f4aa9")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -18246,10 +18507,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d27b488e-8ce3-4303-b50a-bc11ad6c2fcc")
 		(property "Reference" "D9"
-			(at 196.85 106.6799 90)
+			(at 176.022 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18258,7 +18518,7 @@
 			)
 		)
 		(property "Value" "PNU650150AEJJ"
-			(at 196.85 109.2199 90)
+			(at 176.022 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19415,7 +19675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 86.36 0)
+		(at 213.36 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19424,7 +19684,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f04f54-84d2-45ab-9779-a8563929b980")
 		(property "Reference" "R34"
-			(at 181.61 85.0899 0)
+			(at 215.9 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19433,7 +19693,7 @@
 			)
 		)
 		(property "Value" "1.3K"
-			(at 181.61 87.6299 0)
+			(at 215.9 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19442,7 +19702,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 179.07 86.36 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +19711,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT1K30/1761130"
-			(at 179.07 86.36 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19460,7 +19720,7 @@
 			)
 		)
 		(property "Description" "RES 1.3K OHM 1% 1/10W 0603"
-			(at 179.07 86.36 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
