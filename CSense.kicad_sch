@@ -1379,7 +1379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00f2cc85-ce5c-42c7-a963-8d5505244638")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 115.57 99.568 0)
 			(effects
 				(font
@@ -1433,35 +1433,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "J13")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "J15")
+					(reference "J9")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "J16")
+					(reference "J10")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "J17")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
 					(reference "J11")
 					(unit 1)
 				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
+					(reference "J5")
+					(unit 1)
+				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "J14")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1477,7 +1477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ed3437-8e3e-4b57-806f-e32cb4d2450b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR061"
 			(at 137.16 111.76 0)
 			(effects
 				(font
@@ -1527,35 +1527,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "#PWR090")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "#PWR098")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "#PWR078")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "#PWR086")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "#PWR0102")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "#PWR0106")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "#PWR082")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "#PWR094")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1571,7 +1571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453e7a72-8912-431b-a67a-50c795d9b416")
-		(property "Reference" "U13"
+		(property "Reference" "U7"
 			(at 168.91 76.2 0)
 			(effects
 				(font
@@ -1637,35 +1637,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "U16")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "U18")
+					(reference "U12")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "U13")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "U15")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "U19")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "U20")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
 					(reference "U14")
 					(unit 1)
 				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
+					(reference "U8")
+					(unit 1)
+				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "U17")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -1681,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a64a62-447b-44b6-aed1-88a19b51616f")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR062"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1731,35 +1731,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "#PWR091")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "#PWR099")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "#PWR079")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "#PWR087")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "#PWR0103")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "#PWR0107")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "#PWR083")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "#PWR095")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1775,7 +1775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d781c5-91bb-4b1d-b141-028a624e0d32")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR064"
 			(at 167.64 114.3 0)
 			(effects
 				(font
@@ -1825,133 +1825,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "#PWR093")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "#PWR0101")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "#PWR081")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "#PWR089")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "#PWR0105")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "#PWR0109")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "#PWR085")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fa01b07-d4b2-4429-9504-eaa9fa6c9476")
-		(property "Reference" "C37"
-			(at 141.986 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 142.24 77.4762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 144.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
-			(at 144.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 1UF 16V X7R 0603"
-			(at 144.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30b3606b-72a8-4bd0-9875-c02523cabfd0")
-		)
-		(pin "1"
-			(uuid "e7a15974-f040-42e2-bbd5-5a038f4f86f5")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "C43")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "C47")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "C49")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "C51")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "C39")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "C45")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1967,7 +1869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d915820e-acce-4bae-889a-cc8d1ee3badc")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR063"
 			(at 151.13 73.66 0)
 			(effects
 				(font
@@ -2017,35 +1919,35 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "#PWR092")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
-					(reference "#PWR0100")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "#PWR080")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "#PWR088")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "#PWR0104")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
-					(reference "#PWR0108")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "#PWR084")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "#PWR096")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2060,7 +1962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e873cc81-a45a-4bb5-82b8-92da49e2b0d2")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 129.54 92.456 0)
 			(effects
 				(font
@@ -2114,35 +2016,133 @@
 		(instances
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
 					(reference "R42")
 					(unit 1)
 				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
-					(reference "R39")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
 					(reference "R44")
 					(unit 1)
 				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
+					(reference "R46")
+					(unit 1)
+				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
-					(reference "R41")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 144.78 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc9830aa-62f9-40ae-a456-f2f6b51108a1")
+		(property "Reference" "C24"
+			(at 141.224 75.4318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 141.478 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL10B105KO8NNNC/3886677"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90d4dbb4-9cfa-41b6-a1b5-fa21e62fe87d")
+		)
+		(pin "1"
+			(uuid "9bd00496-75d1-47b4-b106-79c7674f2c24")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/0c5e3e45-2fae-42f7-b88b-a63ccf1795a8"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/45c68a0b-6b58-487c-a67c-a540a90bba29"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/4c672224-237e-484f-a149-22ae087ee4cc"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/7e161fdc-6454-4b1e-b381-ad95ef3fe665"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/b4475a4d-562e-459c-b1cf-00ed0f923f3c"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/d71bf041-53cf-4aaf-b059-3842aef1da98"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f89627f7-a662-4d16-87e4-df30279cb408"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c/f8a7a5d1-b537-478e-8b0b-ab05cfac827a"
+					(reference "C28")
 					(unit 1)
 				)
 			)
