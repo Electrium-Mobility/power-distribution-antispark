@@ -11041,7 +11041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:ADAM_PH2-08-UA"
+		(property "Footprint" "CustomFootprintLibrary:ADAM_2PH2-16-UA"
 			(at 59.69 351.79 0)
 			(effects
 				(font
@@ -11050,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/PH2-08-UA/9830443"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/2PH2-16-UA/9830539"
 			(at 59.69 351.79 0)
 			(effects
 				(font
@@ -11059,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
+		(property "Description" "CONN HEADER VERT 16POS 2MM"
 			(at 59.69 351.79 0)
 			(effects
 				(font
@@ -12928,7 +12928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:TPP60308-ES1R-S"
+		(property "Footprint" "CustomFootprintLibrary:ES1ESOP-8-F_TPK"
 			(at 130.81 217.17 0)
 			(effects
 				(font
@@ -16766,7 +16766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:TPP60308-ES1R-S"
+		(property "Footprint" "CustomFootprintLibrary:ES1ESOP-8-F_TPK"
 			(at 132.08 143.51 0)
 			(effects
 				(font
@@ -18521,12 +18521,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomFootprintLibrary:IND_MGAH06036R8M-10"
 			(at 194.31 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/laird-signal-integrity-products/MGAH06036R8M-10/16731123"
