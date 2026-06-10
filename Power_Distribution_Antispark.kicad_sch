@@ -5289,12 +5289,6 @@
 		(uuid "094205e5-173f-4e46-91af-a5446658c10d")
 	)
 	(junction
-		(at 68.58 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b6db8db-6424-4c74-aff6-66802e3f6f9b")
-	)
-	(junction
 		(at 106.68 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5335,6 +5329,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16742e86-df50-4e6d-aaa1-cf9309353bc1")
+	)
+	(junction
+		(at 81.28 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b4b5965-1d2c-4935-8115-839b27973f6c")
 	)
 	(junction
 		(at 165.1 236.22)
@@ -5427,12 +5427,6 @@
 		(uuid "44d8d71e-e2e7-4678-a7b1-da9cb4b3e434")
 	)
 	(junction
-		(at 81.28 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4823fdd5-5c25-4608-88e4-7251caca8894")
-	)
-	(junction
 		(at 190.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5457,6 +5451,12 @@
 		(uuid "510b72db-41a7-4c05-a0c9-b8573a72e8cc")
 	)
 	(junction
+		(at 68.58 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52538951-110e-4cf9-a48d-1ab25d6e4359")
+	)
+	(junction
 		(at 85.09 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5479,6 +5479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60ce9e38-2edc-4a69-9619-ad1cb28deb84")
+	)
+	(junction
+		(at 68.58 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6142e2ca-ab55-48cd-9a92-e9e2f5345ca5")
 	)
 	(junction
 		(at 229.87 209.55)
@@ -5715,12 +5721,6 @@
 		(uuid "e8f88114-9fed-473d-b6e6-30053322a369")
 	)
 	(junction
-		(at 68.58 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb5999b9-4d88-48ff-bfd9-476c3c6d5787")
-	)
-	(junction
 		(at 242.57 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5805,6 +5805,16 @@
 			(type default)
 		)
 		(uuid "026e0571-1a85-4ddf-8c3f-43cef8dff880")
+	)
+	(wire
+		(pts
+			(xy 68.58 215.9) (xy 81.28 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029ba68a-9c70-44b0-9ada-9b16c320e834")
 	)
 	(polyline
 		(pts
@@ -6698,6 +6708,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 215.9) (xy 106.68 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459a4091-6361-44b9-a33f-341b9385ff97")
+	)
+	(wire
+		(pts
 			(xy 247.65 214.63) (xy 247.65 217.17)
 		)
 		(stroke
@@ -7138,7 +7158,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 81.28 142.24)
+			(xy 66.04 142.24) (xy 68.58 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7455,16 +7475,6 @@
 			(type default)
 		)
 		(uuid "81507a78-c00f-4609-9a51-8010ea16ada4")
-	)
-	(wire
-		(pts
-			(xy 66.04 142.24) (xy 68.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ded2d4-35aa-4ff1-b3a3-49fc64b292cd")
 	)
 	(polyline
 		(pts
@@ -7855,6 +7865,16 @@
 			(type default)
 		)
 		(uuid "9e3c3573-e943-4f63-b3b2-8c9190673c24")
+	)
+	(wire
+		(pts
+			(xy 68.58 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e71a6ee-1a9d-4dec-bb0a-12d14d644ae7")
 	)
 	(wire
 		(pts
@@ -8616,16 +8636,6 @@
 		)
 		(uuid "e19cd2d8-55af-48bd-bfdc-ca1525de6074")
 	)
-	(wire
-		(pts
-			(xy 81.28 215.9) (xy 106.68 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41c8bfd-55bd-4b78-8741-794725edbd37")
-	)
 	(polyline
 		(pts
 			(xy 208.28 342.9) (xy 173.99 342.9)
@@ -8715,16 +8725,6 @@
 			(type default)
 		)
 		(uuid "e78d134e-29bb-49ad-9e40-7aaaad8d9a32")
-	)
-	(wire
-		(pts
-			(xy 68.58 215.9) (xy 81.28 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b03779-2ecb-418d-9c06-9e7a98bac99f")
 	)
 	(wire
 		(pts
@@ -10531,6 +10531,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1baa8ad5-4573-4c87-8768-ea999fad96ec")
+		(property "Reference" "C3"
+			(at 71.12 217.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 71.12 219.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 68.58 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 68.58 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 68.58 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e67eec6-639a-4715-a204-0ea30726df86")
+		)
+		(pin "1"
+			(uuid "f31b9e83-b940-4096-b4b7-456689454a1b")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 132.08 55.88 180)
 		(unit 1)
@@ -11393,146 +11463,6 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "338bc3b2-65dd-4f23-a057-06de368fd238")
-		(property "Reference" "C3"
-			(at 71.12 217.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 71.12 219.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.58 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
-			(at 68.58 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 50V X5R 0603"
-			(at 68.58 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "baff62c8-e2b1-4e8d-a99e-bfab7094da12")
-		)
-		(pin "1"
-			(uuid "da3215c6-61b3-48fc-b320-1e81fdf31c90")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36844e3a-9496-4813-bfcf-06707816e66d")
-		(property "Reference" "C2"
-			(at 71.12 143.5162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 71.12 146.0562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 50V X5R 0603"
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46f4aa89-3dbd-4325-9ff4-8c2d00144bf4")
-		)
-		(pin "1"
-			(uuid "21906790-ffb3-42ba-a1b1-e5ac4d5f0122")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12701,6 +12631,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b017cc6-4e43-42de-babf-a247fdaef514")
+		(property "Reference" "C5"
+			(at 83.82 217.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 83.82 219.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 81.28 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 81.28 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 81.28 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2672e766-77ca-4f9c-93db-bb417a0c82f7")
+		)
+		(pin "1"
+			(uuid "be9a5329-4dbc-4378-99d3-18116d99ea86")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 227.33 0)
 		(unit 1)
@@ -13448,7 +13448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -13466,7 +13466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 2.2UF 50V X5R 0603"
+		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -14093,6 +14093,76 @@
 			(project "Power_Distribution_Antispark"
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7986d860-be06-4f70-aad8-8c19db154780")
+		(property "Reference" "C2"
+			(at 71.12 143.5162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 71.12 146.0562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "552182b0-0c66-4893-84ad-124a76241414")
+		)
+		(pin "1"
+			(uuid "7443cfa2-94c7-4c2f-b993-c2aab6e2e018")
+		)
+		(instances
+			(project "Power_Distribution_Antispark"
+				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -15552,76 +15622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96941db2-06a6-4bc5-8f77-3666a7610fb3")
-		(property "Reference" "C5"
-			(at 83.82 217.1762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 83.82 219.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.28 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/GRT188R61H225KE13D/5416754"
-			(at 81.28 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 2.2UF 50V X5R 0603"
-			(at 81.28 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5867015e-bd72-4b21-b8bc-110062e1b7ed")
-		)
-		(pin "1"
-			(uuid "c83192d0-edfc-4cee-9e15-de1243afcd91")
-		)
-		(instances
-			(project "Power_Distribution_Antispark"
-				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 247.65 212.09 180)
 		(unit 1)
@@ -16549,7 +16549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.006"
+		(property "Value" "0.002"
 			(at 336.296 350.266 0)
 			(effects
 				(font
@@ -16576,7 +16576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 0.006 OHM 1% 3/4W 0805"
+		(property "Description" "RES 0.002 OHM 1% 1W 0805"
 			(at 345.44 349.25 0)
 			(effects
 				(font
