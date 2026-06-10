@@ -9977,7 +9977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:FUSC6125X279N-0679L9150-05"
+		(property "Footprint" "CustomFootprintLibrary:FUSE_0679L9200-05_BEL"
 			(at 55.88 39.37 0)
 			(effects
 				(font
@@ -9987,7 +9987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/bel-fuse-inc/0679L9150-05/5844044"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/bel-fuse-inc/0679L9200-05/5844045?s=N4IgTCBcDaIAwDYDsBOAMisc4Fo4FYQBdAXyA"
 			(at 55.88 39.37 0)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FUSE BRD MNT 15A 125VAC/VDC 2SMD"
+		(property "Description" "FUSE BRD MNT 20A 125VAC/VDC 2SMD"
 			(at 55.88 39.37 0)
 			(effects
 				(font
