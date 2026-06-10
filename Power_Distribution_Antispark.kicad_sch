@@ -18243,7 +18243,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "21K"
 			(at 193.04 67.3099 0)
 			(effects
 				(font
@@ -18261,7 +18261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE20K0/2027042"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF0603FT21K0/1713784"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -18270,7 +18270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 20K OHM 0.1% 1/6W 0603"
+		(property "Description" "RES 21K OHM 1% 1/10W 0603"
 			(at 190.5 66.04 0)
 			(effects
 				(font
