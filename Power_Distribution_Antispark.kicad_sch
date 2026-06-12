@@ -5600,12 +5600,6 @@
 		(uuid "52538951-110e-4cf9-a48d-1ab25d6e4359")
 	)
 	(junction
-		(at 85.09 356.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55b7e19a-4595-4249-bca0-c59e130f3368")
-	)
-	(junction
 		(at 60.96 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5888,6 +5882,12 @@
 		(uuid "e2a090cc-798e-45c6-bc13-0c83d4fda76b")
 	)
 	(junction
+		(at 35.56 349.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c0238b-b0d4-47ca-800d-9b864fe9ed07")
+	)
+	(junction
 		(at 231.14 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6041,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 346.71) (xy 35.56 354.33)
+			(xy 35.56 346.71) (xy 35.56 349.25)
 		)
 		(stroke
 			(width 0)
@@ -7039,16 +7039,6 @@
 		)
 		(uuid "49e72b4d-75be-42f3-b960-75416fb75e4a")
 	)
-	(wire
-		(pts
-			(xy 85.09 349.25) (xy 67.31 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5004ea-2dbe-4556-9cf7-c65306e8f319")
-	)
 	(polyline
 		(pts
 			(xy 208.28 313.69) (xy 208.28 342.9)
@@ -7428,6 +7418,16 @@
 			(type default)
 		)
 		(uuid "6d24f218-6583-42c1-9c76-fdb3190f25ec")
+	)
+	(wire
+		(pts
+			(xy 35.56 349.25) (xy 35.56 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddf23d0-726c-4043-a66d-f05ffbc108c6")
 	)
 	(wire
 		(pts
@@ -8311,16 +8311,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 356.87) (xy 85.09 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7520a5c-1de5-4242-9185-1f059f563d53")
-	)
-	(wire
-		(pts
 			(xy 119.38 168.91) (xy 119.38 171.45)
 		)
 		(stroke
@@ -8708,6 +8698,16 @@
 			(type default)
 		)
 		(uuid "c9349bb3-574a-4e09-b6ff-bd8b218faad4")
+	)
+	(wire
+		(pts
+			(xy 35.56 349.25) (xy 54.61 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b7404a-3ae5-4561-8a7d-05f2deaf041e")
 	)
 	(wire
 		(pts
@@ -9580,14 +9580,14 @@
 		(uuid "9056e6e4-cbcf-4384-ab1a-6d8e281018c1")
 	)
 	(label "V_S_12V_Output"
-		(at 54.61 349.25 180)
+		(at 67.31 346.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "aca5c8c7-1f09-4878-b8e7-f886898456ed")
+		(uuid "97e80e32-3a10-47c0-868b-c81020d213fe")
 	)
 	(label "C_Sense_5V_1"
 		(at 384.81 165.1 0)
@@ -9598,16 +9598,6 @@
 			(justify left bottom)
 		)
 		(uuid "c0bfb88c-29e6-4e0a-9d75-4bbf74a3c480")
-	)
-	(label "C_Sense_12V_1"
-		(at 67.31 346.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1b34209-1db3-49d3-8bf7-104831ece224")
 	)
 	(label "C_Sense_12V_2"
 		(at 67.31 359.41 0)
@@ -9668,6 +9658,16 @@
 			(justify left bottom)
 		)
 		(uuid "f12972a1-1e90-4ca6-a68e-69dadfa31905")
+	)
+	(label "C_Sense_12V_1"
+		(at 67.31 349.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7046b32-cbd7-4dc9-bfa4-3e4c0b34965f")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
