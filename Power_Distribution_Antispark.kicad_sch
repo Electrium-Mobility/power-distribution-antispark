@@ -9724,6 +9724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94315bff-48e9-4f65-9d29-6307f5066562")
 		)
@@ -9850,6 +9859,15 @@
 			)
 		)
 		(property "Description" "RES SMD 20K OHM 0.1% 1/6W 0603"
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 59.69 81.28 0)
 			(effects
 				(font
@@ -9994,6 +10012,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 217.17 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e753914-242b-4dbb-8249-3b540154a279")
 		)
@@ -10028,7 +10055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13K"
+		(property "Value" "13.3K"
 			(at 120.65 241.2999 0)
 			(effects
 				(font
@@ -10056,6 +10083,15 @@
 			)
 		)
 		(property "Description" "RES SMD 13.3K OHM 0.5% 1/6W 0603"
+			(at 118.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 118.11 240.03 0)
 			(effects
 				(font
@@ -10264,6 +10300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 144.78 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30d2cfe2-627e-47bb-ba9f-aba12601b976")
 		)
@@ -10340,6 +10385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f489dd58-6cf6-429c-89d6-27bc03b7f4b0")
 		)
@@ -10402,6 +10456,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 275.59 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 275.59 210.82 0)
 			(effects
 				(font
@@ -10582,6 +10645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "208a8a95-b71b-4739-bf4a-fe7f3d83f1fe")
 		)
@@ -10709,6 +10781,15 @@
 			)
 		)
 		(property "Description" "RES 2.2K OHM 1% 1/10W 0603"
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -10845,6 +10926,15 @@
 			)
 		)
 		(property "Description" "CAP CER 100NF 100V X8L 0603"
+			(at 102.87 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 102.87 160.02 0)
 			(effects
 				(font
@@ -11122,6 +11212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 68.58 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e67eec6-639a-4715-a204-0ea30726df86")
 		)
@@ -11184,6 +11283,15 @@
 			)
 		)
 		(property "Description" "RES SMD 20K OHM 0.1% 1/6W 0603"
+			(at 132.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -11261,6 +11369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 72.39 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d501f9ae-98b9-42b1-9171-0aed11f1c4f1")
 		)
@@ -11323,6 +11440,15 @@
 			)
 		)
 		(property "Description" "CAP CER 100NF 100V X8L 0603"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -11467,6 +11593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 379.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b1aecb8-3ddc-432f-8c8a-44e989591d67")
 		)
@@ -11526,6 +11661,15 @@
 			)
 		)
 		(property "Description" "RES SMD 2K OHM 0.5% 1/6W 0603"
+			(at 201.93 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 201.93 247.65 0)
 			(effects
 				(font
@@ -11604,6 +11748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 407.67 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb882bba-58f7-4b0d-9170-6a0504f1a5a7")
 		)
@@ -11663,6 +11816,15 @@
 			)
 		)
 		(property "Description" "CAP CER 100NF 100V X8L 0603"
+			(at 100.33 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 100.33 231.14 0)
 			(effects
 				(font
@@ -11731,6 +11893,15 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 16POS 2MM"
+			(at 59.69 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 59.69 351.79 0)
 			(effects
 				(font
@@ -11918,6 +12089,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4d4d5ca-a07d-43ad-96d3-0074245b7473")
 		)
@@ -12054,6 +12234,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 115.57 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef630d8d-0e28-4b41-8f3a-87a2da5967c0")
 		)
@@ -12124,6 +12313,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3695422-1c3c-4262-9c14-2e9e30525340")
 		)
@@ -12186,6 +12384,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 382.27 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 382.27 264.16 0)
 			(effects
 				(font
@@ -12591,6 +12798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 381 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce829b95-a0f0-4d75-bbb0-3eb3e942a6d1")
 		)
@@ -12726,6 +12942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 363.22 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "767d8727-a749-4e50-be7d-42dac8731714")
 		)
@@ -12788,6 +13013,15 @@
 			)
 		)
 		(property "Description" "RES SMD 49.9 OHM 0.5% 1/6W 0603"
+			(at 201.93 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 201.93 220.98 0)
 			(effects
 				(font
@@ -12866,6 +13100,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 96.52 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5fdb9086-242f-48fc-a516-2fa5ff9c34e8")
 		)
@@ -12927,6 +13170,15 @@
 			)
 		)
 		(property "Description" "RES 100 OHMS 35W 1% TO263"
+			(at 171.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -13136,6 +13388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 275.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f041510-5dbd-4328-8319-627008513390")
 		)
@@ -13195,6 +13456,15 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
+			(at 58.42 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 295.91 0)
 			(effects
 				(font
@@ -13412,6 +13682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 332.74 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2647d779-b026-41b9-aba4-8e6c3181c0f1")
 		)
@@ -13487,6 +13766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.68 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "248f77dd-a099-485d-852b-53e76e03ac54")
 		)
@@ -13549,6 +13837,15 @@
 			)
 		)
 		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 81.28 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 81.28 218.44 0)
 			(effects
 				(font
@@ -13693,6 +13990,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 110.49 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a344c7d-ed5f-465b-ba64-fe2e95f4a0a7")
 		)
@@ -13829,6 +14135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 130.81 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "9f745adb-3846-4d5a-805d-1e3dcf6bfd9f")
 		)
@@ -13912,6 +14227,15 @@
 			)
 		)
 		(property "Description" "CAP CER 6800PF 50V X7R 0603"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 119.38 173.99 0)
 			(effects
 				(font
@@ -14056,6 +14380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 48.26 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcdf9230-9627-43c4-be58-356663228eef")
 		)
@@ -14142,6 +14475,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 45.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96ba35f6-e2d2-41b5-bedf-3fe699b8ce68")
 		)
@@ -14203,6 +14545,15 @@
 			)
 		)
 		(property "Description" "RES 21K OHM 1% 1/10W 0603"
+			(at 110.49 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 110.49 146.05 0)
 			(effects
 				(font
@@ -14347,6 +14698,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc2f03df-c029-4329-b9d3-299b3b1b32bc")
 		)
@@ -14483,6 +14843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5843c5c2-9d8b-423b-9f7e-3dd95bf194d2")
 		)
@@ -14553,6 +14922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9c9faa9-9562-45ab-b9dc-a14ed8861fb5")
 		)
@@ -14615,6 +14993,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 379.73 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 379.73 146.05 0)
 			(effects
 				(font
@@ -14755,6 +15142,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 52.07 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f23f4a1-bce7-4cd9-8bb2-9aad021d4320")
 		)
@@ -14816,6 +15212,15 @@
 		)
 		(property "Description" "FUSE BOARD MNT 500MA 63VDC 0603"
 			(at 62.23 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,6 +15427,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 166.37 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29b2aad3-4558-4205-9baf-d4bccac03a1a")
 		)
@@ -15091,6 +15505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.68 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd29767b-8725-4866-90c4-a8def66dc4be")
 		)
@@ -15150,6 +15573,15 @@
 			)
 		)
 		(property "Description" "2.2 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 68.58 144.78 0)
 			(effects
 				(font
@@ -15492,6 +15924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 135.89 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/5e8a89a4-9381-43c9-9195-b0d86b17c24c"
@@ -15572,6 +16013,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 43.18 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e6892ba-2b60-438f-b46e-87290030a68b")
 		)
@@ -15633,6 +16083,15 @@
 		)
 		(property "Description" "RES 402K OHM 1% 1/10W 0603"
 			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 219.71 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15710,6 +16169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 127 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abc1b9bd-0767-469e-ad1d-c539730de12f")
 		)
@@ -15772,6 +16240,15 @@
 			)
 		)
 		(property "Description" "CAP1206 X5R 47UF 20% 16V"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 231.14 146.05 0)
 			(effects
 				(font
@@ -15914,6 +16391,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28e15c66-2627-4e1a-b4bd-6c69c4a3e33d")
 		)
@@ -15976,6 +16462,15 @@
 			)
 		)
 		(property "Description" "RES SMD 14K OHM 0.5% 1/6W 0603"
+			(at 203.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 203.2 162.56 0)
 			(effects
 				(font
@@ -16117,6 +16612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 203.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5474696c-fb6f-4ba6-8d39-d2b732552587")
 		)
@@ -16179,6 +16683,15 @@
 			)
 		)
 		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 387.35 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 387.35 349.25 0)
 			(effects
 				(font
@@ -16269,6 +16782,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 118.11 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22e4bda7-9df7-4d3b-a658-b1d5d830256e")
 		)
@@ -16321,7 +16843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RNCF0603BTE3K60/6262241"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/panasonic-industry/ERA-3AEB362V/1466065"
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -16330,7 +16852,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.6K OHM 0.1% 1/6W 0603"
+		(property "Description" "RES SMD 3.6K OHM 0.1% 1/10W 0603"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 250.19 148.59 0)
 			(effects
 				(font
@@ -16439,7 +16970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13K"
+		(property "Value" "13.3K"
 			(at 121.92 167.6399 0)
 			(effects
 				(font
@@ -16467,6 +16998,15 @@
 			)
 		)
 		(property "Description" "RES SMD 13.3K OHM 0.5% 1/6W 0603"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 119.38 166.37 0)
 			(effects
 				(font
@@ -16611,6 +17151,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e98f071-8083-40d7-9076-2faf4c61150f")
 		)
@@ -16670,6 +17219,15 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 247.65 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 247.65 212.09 0)
 			(effects
 				(font
@@ -16813,6 +17371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20b3155a-9698-432f-a492-45b4a8b3d72f")
 		)
@@ -16875,6 +17442,15 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 38.1 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 38.1 299.72 0)
 			(effects
 				(font
@@ -16955,6 +17531,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8901e09e-0f7a-48d4-85a3-aebf8b209f99")
 		)
@@ -17026,6 +17611,15 @@
 		)
 		(property "Description" "Diode 60 V 5A Surface Mount DO-214AC (SMA)"
 			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 184.15 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17234,6 +17828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d76ab16b-0d6c-48af-82f0-d4957c2a7f55")
 		)
@@ -17294,6 +17897,15 @@
 		)
 		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 45.72 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17365,6 +17977,15 @@
 			)
 		)
 		(property "Description" "22A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 37mOhm Ron, 8.3nC Qqd, -55 to 175 °C, LFPAK33"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -17451,6 +18072,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 182.88 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "468d7d23-bcb2-42d3-a4ae-e8f4c9a46c3c")
 		)
@@ -17521,6 +18151,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 270.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "235081ff-251d-4e03-8ad3-47227ebd8542")
 		)
@@ -17582,6 +18221,15 @@
 			)
 		)
 		(property "Description" "RES 0.002 OHM 1% 1W 0805"
+			(at 345.44 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 345.44 349.25 0)
 			(effects
 				(font
@@ -17660,6 +18308,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "020d134b-a1ce-4c28-877d-f8a4fecee154")
 		)
@@ -17730,6 +18387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 229.87 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "949216a2-57c3-4860-b4d8-95d9d6a32466")
 		)
@@ -17792,6 +18458,15 @@
 			)
 		)
 		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 3.5A 8-SOIC (0.154\", 3.90mm Width) Exposed Pad"
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 143.51 0)
 			(effects
 				(font
@@ -17956,6 +18631,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 201.93 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83e0ced2-6d5c-4e13-b319-05fa837e09fc")
 		)
@@ -18093,6 +18777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8af83cd8-d0b3-42a0-9440-4fb4e7f4f51f")
 		)
@@ -18155,6 +18848,15 @@
 			)
 		)
 		(property "Description" "GENERAL PURPOSE COMPARATOR, OPEN"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -18300,6 +19002,15 @@
 			)
 		)
 		(property "Description" "CAP CER 39PF 100V C0G/NP0 0603"
+			(at 109.22 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 109.22 245.11 0)
 			(effects
 				(font
@@ -18510,6 +19221,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 382.27 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c25af2f7-519e-4c7e-9b25-cbc5dc0e0a8b")
 		)
@@ -18568,6 +19288,15 @@
 			)
 		)
 		(property "Description" "RES SMD 1.5K OHM 0.5% 1/6W 0603"
+			(at 247.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 247.65 220.98 0)
 			(effects
 				(font
@@ -18646,6 +19375,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 171.45 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a841f667-7380-4d24-8010-2053112a1400")
 		)
@@ -18708,6 +19446,15 @@
 			)
 		)
 		(property "Description" "CAP1206 X5R 47UF 20% 16V"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 218.44 146.05 0)
 			(effects
 				(font
@@ -18918,6 +19665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 381 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "541a4305-740b-491e-949c-9652bd4078fb")
 		)
@@ -18976,6 +19732,15 @@
 			)
 		)
 		(property "Description" "RES 2.2K OHM 1% 1/10W 0603"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 156.21 57.15 0)
 			(effects
 				(font
@@ -19120,6 +19885,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "edf0c2c1-b7c3-4020-b98d-e75a21064bf5")
 		)
@@ -19228,7 +20002,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PNU650150AEJJ"
+		(property "Value" "PNU650200AEJJ"
 			(at 176.022 94.234 90)
 			(effects
 				(font
@@ -19246,7 +20020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PNU650150AEJJ/24625516"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PNU650200AEJJ/24625512"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -19255,7 +20029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE STD 650V 15A D2PAK R2P"
+		(property "Description" "DIODE STD 650V 20A D2PAK R2P"
 			(at 194.31 93.98 0)
 			(effects
 				(font
@@ -19275,6 +20049,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 194.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 194.31 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,6 +20193,15 @@
 			)
 		)
 		(property "Description" "RES 21K OHM 1% 1/10W 0603"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -19687,6 +20479,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 194.31 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09d36ff6-d8e8-4515-864a-430882a66cf2")
 		)
@@ -19954,6 +20755,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.25 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b751ed13-f1c2-49a2-abb7-93e97e3e0c14")
 		)
@@ -20157,6 +20967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 381 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56180d3c-38a7-4310-9eef-33eb9ab86ca2")
 		)
@@ -20219,6 +21038,15 @@
 			)
 		)
 		(property "Description" "P-Channel 60 V 20A (Tc) 90W (Tc) Surface Mount TO-252"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 146.05 52.07 0)
 			(effects
 				(font
@@ -20300,6 +21128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aef8da89-a0c1-4fbb-988c-d0210ee26d93")
 		)
@@ -20362,6 +21199,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 158.75 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 158.75 298.45 0)
 			(effects
 				(font
@@ -20434,6 +21280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a81cf3f3-3401-47de-9d97-e2b013dd6db0")
 		)
@@ -20494,6 +21349,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 168.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 168.91 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20571,6 +21435,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 203.2 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d269e8cc-164f-4467-9477-6a0e2a6321cb")
 		)
@@ -20636,6 +21509,15 @@
 			)
 		)
 		(property "Description" "P-Channel 60 V 20A (Tc) 90W (Tc) Surface Mount TO-252"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -20774,6 +21656,15 @@
 		)
 		(property "Description" "FIXED IND 15UH 6A 45 MOHM SMD"
 			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 195.58 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
