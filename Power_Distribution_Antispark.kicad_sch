@@ -6271,6 +6271,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 346.71) (xy 54.61 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aac1a43-af4f-43e8-820f-cab2a344278f")
+	)
+	(wire
+		(pts
 			(xy 119.38 176.53) (xy 119.38 177.8)
 		)
 		(stroke
@@ -8988,16 +8998,6 @@
 			(type default)
 		)
 		(uuid "e0d5f78f-dfb1-49ca-a0c1-406def6fe42a")
-	)
-	(wire
-		(pts
-			(xy 54.61 346.71) (xy 35.56 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ee9711-6132-4e59-ae6e-ca468acbe0a3")
 	)
 	(wire
 		(pts
@@ -11850,13 +11850,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 59.69 351.79 0)
+		(at 62.23 351.79 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "267ad595-c871-441f-859c-2dbdb9a838fc")
 		(property "Reference" "J1"
 			(at 60.96 337.82 0)
@@ -11874,8 +11874,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprintLibrary:ADAM_2PH2-16-UA"
-			(at 59.69 351.79 0)
+		(property "Footprint" "CustomFootprintLibrary:CONN16_B16B-PHDSS_JST"
+			(at 62.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11883,8 +11883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/2PH2-16-UA/9830539"
-			(at 59.69 351.79 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B16B-PHDSS/926671"
+			(at 62.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11893,7 +11893,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 16POS 2MM"
-			(at 59.69 351.79 0)
+			(at 62.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,7 +11902,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 59.69 351.79 0)
+			(at 62.23 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
