@@ -41198,10 +41198,34 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "6/21/2026"
+		(at 200.9 58.6 0)
+		(layer "B.SilkS")
+		(uuid "254411e5-eec8-4407-9c14-6b82bf845ede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Eleanor Wang"
 		(at 200.9475 52.2 0)
 		(layer "B.SilkS")
 		(uuid "db695a43-1bf0-4b2d-9363-fb7bce9d40b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Rev 1.0"
+		(at 200.9475 57 0)
+		(layer "B.SilkS")
+		(uuid "ee68142b-c7bc-4777-abc2-98fd7f6b69b9")
 		(effects
 			(font
 				(size 1 1)
