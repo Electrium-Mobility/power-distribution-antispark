@@ -21007,7 +21007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G20P06K"
+		(property "Value" "GSFD6959"
 			(at 150.368 46.482 0)
 			(effects
 				(font
@@ -21027,7 +21027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/goford-semiconductor/G20P06K/16689207"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/good-ark-semiconductor/GSFD6959/21275302"
 			(at 151.13 48.26 0)
 			(effects
 				(font
@@ -21037,7 +21037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel 60 V 20A (Tc) 90W (Tc) Surface Mount TO-252"
+		(property "Description" "MOSFET, P-CH, SINGLE, -60.00A, -"
 			(at 146.05 52.07 0)
 			(effects
 				(font
@@ -21478,7 +21478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G20P06K"
+		(property "Value" "GSFD6959"
 			(at 79.248 70.866 0)
 			(effects
 				(font
@@ -21498,7 +21498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/goford-semiconductor/G20P06K/16689207"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/good-ark-semiconductor/GSFD6959/21275302"
 			(at 80.01 72.39 0)
 			(effects
 				(font
@@ -21508,7 +21508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel 60 V 20A (Tc) 90W (Tc) Surface Mount TO-252"
+		(property "Description" "MOSFET, P-CH, SINGLE, -60.00A, -"
 			(at 74.93 76.2 0)
 			(effects
 				(font
